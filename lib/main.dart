@@ -1,7 +1,10 @@
+import 'package:commit_linter_test/screens/home/home.dart';
 import 'package:flutter/material.dart';
 
 void main() {
-  runApp(const MyApp());
+  runApp(const MaterialApp(
+		home: Home(),
+	));
 }
 
 class MyApp extends StatelessWidget {
