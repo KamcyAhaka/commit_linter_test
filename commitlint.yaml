@@ -1,0 +1,41 @@
+include: package:commitlint_cli/commitlint.yaml
+
+rules:
+  type-enum:
+    - 2
+    - always
+    - - build
+      - chore
+      - ci
+      - docs
+      - feat
+      - fix
+      - perf
+      - refactor
+      - revert
+      - style
+      - test
+  scope-enum:
+    - 2
+    - always
+    - - core
+      - ui
+      - api
+      - auth
+      - docs
+      - merchant/orders
+      - merchant/products
+      - merchant/dashboard
+      - buyer/home
+      - buyer/products
+      - buyer/cart
+      - buyer/checkout
+      - buyer/profile
+      - admin/users
+      - admin/orders
+      - admin/products
+      - admin/analytics
+      - notifications
+      - payments
+      - shipping
+      - reviews
